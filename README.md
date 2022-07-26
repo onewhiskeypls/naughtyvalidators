@@ -1,4 +1,4 @@
-to execute run:
+to execute, run:
 
 ```
 go run main.go PROPOSALID
@@ -10,7 +10,7 @@ ex:
 go run main.go 32
 ```
 
-it will dump something like this:
+it will dump something like this. easily digestible lines of <= 280 character length:
 
 ```
 
