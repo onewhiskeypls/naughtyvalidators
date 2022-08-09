@@ -1,3 +1,7 @@
+#Overview
+
+lev mintscan api to find validators who havent voted on a proposal and dump their twitter handles into blocks so they can be notified via twitter that they aren't voting
+
 to execute, run:
 
 ```
