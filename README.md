@@ -1,6 +1,6 @@
 # Overview
 
-lev mintscan api to find validators who havent voted on a proposal and dump their twitter handles into blocks so they can be notified via twitter that they aren't voting
+leverage mintscan api to find validators on Juno Network who havent voted on a proposal and dump their twitter handles into chunks of text so they can be notified via twitter that they aren't voting
 
 to execute, run:
 
