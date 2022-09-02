@@ -2,6 +2,10 @@
 
 leverage mintscan api to find validators on Juno Network who havent voted on a proposal and dump their twitter handles into chunks of text so they can be notified via twitter that they aren't voting
 
+## Commands
+
+- nonvoters [PROPOSALID]
+
 to execute, run:
 
 ```
