@@ -7,6 +7,7 @@ import (
 	"os"
 	"strings"
 
+	delegators "naughtyvalidators/src"
 	nonvoters "naughtyvalidators/src/nonvoters"
 	txavgs "naughtyvalidators/src/txavgs"
 )
@@ -19,6 +20,8 @@ func main() {
 		checkNonVoters()
 	case "txavgs":
 		checkTxAvgs()
+	case "delegators":
+		getDelegators()
 	default:
 		fmt.Println("Need cmd")
 	}
@@ -65,4 +68,10 @@ func checkTxAvgs() {
 			fmt.Println()
 		}
 	*/
+}
+
+func getDelegators() {
+	valoperAddr := os.Args[2]
+
+	delegators.GetAllDelegatorsOfValidator(valoperAddr)
 }
